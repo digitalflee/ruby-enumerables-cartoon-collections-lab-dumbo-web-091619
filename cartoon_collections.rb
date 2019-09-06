@@ -11,8 +11,6 @@ array.each do |plan|
 if plan.length > 4 
   true
 end 
-end
-false 
 end 
 
 def find_the_cheese# code an argument here
