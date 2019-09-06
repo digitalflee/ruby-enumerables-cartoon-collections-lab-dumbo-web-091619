@@ -11,7 +11,7 @@ puts kap = long_planeteer_calls.select {|plan| plan.length > 4 }
 puts lesskap = long_planeteer_calls.select {|plan| plan.length < 4 }
 if kap[0].length > 4 
   true 
-  elsif lesskap[0] < 4
+  elsif lesskap[0].length < 4
   false 
 else
   true
