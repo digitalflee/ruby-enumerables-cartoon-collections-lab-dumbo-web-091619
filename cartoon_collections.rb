@@ -7,7 +7,7 @@ planeteer_calls.map{|plan| plan.capitalize + "!"}
 end
 
 def long_planeteer_calls(long_planeteer_calls)
-long_planeteer_calls {|plan| plan.length > 4 } 
+long_planeteer_calls.each {|plan| plan.length > 4 } 
 if plan.length > 4 
   true
 end 
