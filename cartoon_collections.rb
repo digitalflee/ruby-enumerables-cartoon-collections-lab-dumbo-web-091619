@@ -6,7 +6,7 @@ def summon_captain_planet(planeteer_calls)
 planeteer_calls.map{|plan| plan.capitalize + "!"}
 end
 
-def long_planeteer_calls(long_planeteer_calls)
+def long_planeteer_calls(array)
 long_planeteer_calls.each do |plan| 
 if plan.length > 4 
   true
