@@ -9,11 +9,6 @@ end
 def long_planeteer_calls(long_planeteer_calls)
 kap = long_planeteer_calls.select {|plan| plan.length > 4 } 
 lesskap = long_planeteer_calls.select {|plan| plan.length < 4 }
-if kap[0].length > 4 
-  true 
-elsif kap.length <   
-  false 
-end
 end
 
 def find_the_cheese# code an argument here
