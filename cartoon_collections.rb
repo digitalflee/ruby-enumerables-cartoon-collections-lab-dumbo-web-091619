@@ -9,7 +9,7 @@ end
 def long_planeteer_calls(long_planeteer_calls)
 puts kap = long_planeteer_calls.select {|plan| plan.length > 4 } 
 puts lesskap = long_planeteer_calls.select {|plan| plan.length < 4 }
-return kap 
+return lesskap 
 end
 
 def find_the_cheese# code an argument here
