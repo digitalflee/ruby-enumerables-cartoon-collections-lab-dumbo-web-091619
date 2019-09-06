@@ -10,8 +10,6 @@ def long_planeteer_calls(long_planeteer_calls)
 long_planeteer_calls {|plan| plan.length > 4 } 
 if plan.length > 4 
   true
-else
-  false 
 end 
 end
 
