@@ -10,6 +10,8 @@ def long_planeteer_calls(long_planeteer_calls)
 kap = long_planeteer_calls.select {|plan| plan.length > 4 } 
 if kap[0].length > 4 
   true
+else
+  false 
 end 
 end
 
