@@ -9,7 +9,7 @@ end
 def long_planeteer_calls(array)
 array.each do |plan| 
 if plan.length > 4 
-  true
+  return true
 end 
 end 
 true 
