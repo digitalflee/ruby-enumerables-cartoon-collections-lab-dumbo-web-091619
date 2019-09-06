@@ -15,7 +15,16 @@ end
 return false 
 end 
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  array.each do |chz|
+    i = 0
+    while i < cheese_types.length
+      if cheese_types.include?(chz)
+        return chz
+      end
+      i += 1
+    end
+  end
+  return nil
 end
